@@ -5,7 +5,7 @@
  * @x: The base value.
  * @y: The exponent.
  *
- * Return: The result of x raised to the power of y. Returns -1 for negative exponents.
+ * Return: x result to power y. Returns -1 for negative exponents.
  */
 int _pow_recursion(int x, int y)
 {
@@ -15,5 +15,5 @@ int _pow_recursion(int x, int y)
 	if (y == 0) /* Base case: any number raised to the power of 0 is 1 */
 		return (1);
 
-	return (x * _pow_recursion(x, y - 1)); /* Recursively calculate x raised to the power of y */
+	return (x * _pow_recursion(x, y - 1)); /* Calculate x to power of y */
 }
