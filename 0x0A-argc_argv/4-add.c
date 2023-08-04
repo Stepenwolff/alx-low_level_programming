@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 	{
 		if (check_num(argv[count])) /* Check if the argument is a number */
 		{
-			str_to_int = atoi(argv[count]); /* Convert the string to an integer using ATOI */
+			str_to_int = atoi(argv[count]); /* Convert string to integer using ATOI */
 			sum += str_to_int;
 		}
 		else /* If one of the arguments contains non-digit characters */
