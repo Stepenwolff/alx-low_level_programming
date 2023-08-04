@@ -8,8 +8,8 @@
  */
 int _strlen_recursion(char *s)
 {
-	if (*s == '\0') /* Check if the current character is the null terminator (end of the string) */
+	if (*s == '\0') /* Checks whether the current character is null terminator */
 		return (0);
 
-	return (1 + _strlen_recursion(s + 1)); /* Recursively calculate the length of the string with the next character */
+	return (1 + _strlen_recursion(s + 1)); /* Calculate length of the string */
 }
