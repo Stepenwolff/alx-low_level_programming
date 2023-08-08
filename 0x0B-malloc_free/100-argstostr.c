@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * argstostr - Concatenates all the arguments of a program into a single string.
+ * argstostr - Concatenates the arguments of a program into a single string.
  * @ac: The number of arguments.
  * @av: An array of strings containing the arguments.
  *

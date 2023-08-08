@@ -8,7 +8,7 @@
  * @height: The height dimension of the grid.
  *
  * Description: This function releases the memory allocated for a 2D array.
- * It first frees the memory of each row and then the memory of the entire grid.
+ * First frees the memory of each row and then the memory of the entire grid.
  *
  * Return: None.
  */
