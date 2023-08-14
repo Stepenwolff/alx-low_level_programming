@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * create_array - Creates an array of specified size and fills it with a given character.
+ * create_array - Creates specified size array with a given character.
  * @size: The size of the array.
  * @c: The character to assign.
  *
- * Description: This function dynamically allocates memory for an array of size 'size'
+ * Description: Dynamically allocates memory for an array of size 'size'
  *              and initializes all elements with the character 'c'.
  *
  * Return: A pointer to the created array, or NULL if memory allocation fails.
